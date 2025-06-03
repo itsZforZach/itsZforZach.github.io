@@ -1,0 +1,49 @@
+html{
+    background-image: image-set("media/szent-laszlo-gimnazium.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+h2{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: max-content;
+}
+
+main{
+    height: max-content;
+
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+a{
+    color: black;
+}
+
+#gonosz{
+    width: 530px;
+    height: auto;
+    transition: 0.2s;
+}
+
+#gonosz:hover{
+    width: 580px;
+    height: auto;
+    transition: 0.3s;
+    filter: brightness(0.8);
+}
+
+#gdiv{
+    width: 700px;
+    height: 420px;
+}

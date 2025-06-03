@@ -1,0 +1,59 @@
+main{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 360pt 360pt;
+
+    height: max-content;
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+html{
+    background-image: image-set("media/szent-laszlo-gimnazium.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+h2{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: max-content;
+}
+
+main div p{
+    width: 300pt;
+    justify-self: center;
+}
+
+main div div{
+    width: 400px;
+    height: 300px;
+}
+
+main div{
+    justify-self: center;
+    align-content: start;
+}
+
+main div div img{
+    width: 360px;
+    height: 270px;
+    transition: 0.2s;
+}
+
+main div div img:hover{
+    width: 400px;
+    height: 300px;
+    transition: 0.3s;
+    filter: brightness(0.8);
+}
